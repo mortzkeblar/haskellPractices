@@ -29,6 +29,6 @@ foreverAlone(Persona, Dia, Horario) :-
 	not((quienAtiende(OtraPersona, Dia, Horario), Persona \= OtraPersona)).
 
 % Punto 4: posibilidad de atencion
-posibilidadDeAtencion(Dia) :-
+posibilidadDeAtencion(Dia, Personas) :-
 	quienAtiende(_, Dia, _),
-	forall(quienAtiende(Persona, Dia, Hora), quienAtiende(Persona, Dia, Hora)).
+	forall(quienAtiende(_, Dia, Hora), quienAtiende(Personas, Dia, Hora)).
