@@ -12,8 +12,7 @@ Queremos reflejar entonces que:
 - kaito no sabe cantar ninguna canción.
 
 Tener en cuenta que puede haber canciones con el mismo nombre pero con diferentes duraciones.
-
-    a) Generar la base de conocimientos inicial
+Generar la base de conocimientos inicial.
 
 Definir los siguientes predicados que sean totalmente inversibles, a menos que se indique lo contrario.
 
@@ -45,9 +44,9 @@ Queremos reflejar los siguientes conciertos:
 3. Conocer el vocaloid más famoso, es decir con mayor nivel de fama. El nivel de fama de un vocaloid se calcula como la fama total que le dan los conciertos en los cuales puede participar multiplicado por la cantidad de canciones que sabe cantar.
 
 4. Sabemos que:
-- megurineLuka conoce a hatsuneMiku  y a gumi 
-- gumi conoce a seeU
-- seeU conoce a kaito
+    - megurineLuka conoce a hatsuneMiku  y a gumi 
+    - gumi conoce a seeU
+    - seeU conoce a kaito
 Queremos verificar si un vocaloid es el único que participa de un concierto, esto se cumple si ninguno de sus conocidos ya sea directo o indirectos (en cualquiera de los niveles) participa en el mismo concierto.
 
 5. Supongamos que aparece un nuevo tipo de concierto y necesitamos tenerlo en cuenta en nuestra solución, explique los cambios que habría que realizar para que siga todo funcionando. ¿Qué conceptos facilitaron dicha implementación?
